@@ -1,6 +1,6 @@
 "use client"
 import { useState, useEffect, useCallback } from "react";
-import { RefreshCw, Globe } from "lucide-react";
+import { RefreshCw } from "lucide-react";
 import { GameAlert } from "@/components/alert";
 import { WordInput } from "@/components/input";
 import { GuessGrid } from "@/components/guessGrid";

@@ -105,7 +105,6 @@ export default function handler(req, res) {
             "Dividen", "Saham", "Obligasi", "Reksadana", "Bank", "Pinjaman", "Tabungan", "Kartu", "Kredit", "Asuransi",
             "Jaminan", "Rekening", "Bunga", "Deposito", "Uang", "Koin", "Dompet", "ATM", "Cek", "Transfer", "Debit", "Saldo",
             "Laporan", "Statistik"]
-
     }
 
     const { language = 'en' } = req.query;
@@ -127,5 +126,5 @@ export default function handler(req, res) {
         : { kataRahasia: secretWord, message: "Nyari apa kak?" };
 
     return res.status(200).json(response);
-
 }
+
