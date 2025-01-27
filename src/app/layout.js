@@ -18,8 +18,8 @@ const interFont = InterFont({
 });
 
 export const metadata = {
-  title: "My App",
-  description: "First Project built with NextJs",
+  title: "Wordle Game",
+  description: "Guess the word | Tebak kata",
 };
 
 export default function RootLayout({ children }) {
